@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DC | Links</title>
+
+  <!-- TailwindCSS -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+  <main>
+    <div class="w-screen h-screen bg-primary flex flex-col items-center justify-center overflow-hidden">
+      <div class="sm:w-96 w-full h-2/4 flex flex-col items-center justify-center ">
+        <div class="w-52 h-52 rounded-full">
+          <img src="./assets/avatar.png" alt="Avatar image of Diogo Costa" class="object-contain">
+        </div>
+        <h1 class="text-white poppins-400 text-2xl mt-12 hidden lg:block">Diogo Marques Costa</h1>
+        <h1 class="text-white poppins-400 text-2xl mt-12 lg:hidden">Diogo M. Costa</h1>
+        <h2 class="text-white text-lg">Full-stack Developer</h2>
+      </div>
+      <div class="sm:w-96 w-full h-3/5 flex flex-col items-center justify-between rounded-t-full bg-pink-900">
+        <div class="logo-container w-44 h-12 p-1.5 flex justify-evenly items-center bg-white rounded-full">
+          <i data-feather="github" class="cursor-pointer hover:text-pink-900 transform hover:scale-150"></i>
+          <i data-feather="send" class="cursor-pointer hover:text-pink-900 transform hover:scale-150"></i>
+          <i data-feather="linkedin" class="cursor-pointer hover:text-pink-900 transform hover:scale-150"></i>
+        </div>
+
+        <div class="content-container h-3/4 flex flex-col items-center justify-evenly">
+          <h3 class="text-white text-2xl">Check more of me 👇</h3>
+          <a href="https://www.diogomcosta.com" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Visit my website 🚀</a>
+          <a href="https://www.github.com/diogofalken/" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Check my projects 🤯</a>
+          <a href="https://www.instagram.com/diogofalcao99" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Follow me on instagram 📷</a>
+        </div>
+
+        <div class="w-12 h-12 justify-self-end">
+          <img src="./assets/Logo.png" alt="Diogo Costa logo">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+      feather.replace()
+  </script>
+</body>
+</html>
