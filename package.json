@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "serve",
+    "build": "vite build",
     "dev": "vite"
   },
   "repository": "https://github.com/diogofalken/linktree.git",
@@ -13,5 +15,8 @@
     "postcss": "^8.2.6",
     "tailwindcss": "^2.0.3",
     "vite": "^2.0.1"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
   }
 }
