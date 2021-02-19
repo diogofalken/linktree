@@ -7,15 +7,18 @@
   <title>DC | Links</title>
 
   <!-- TailwindCSS -->
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/tailwind.css">
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  
   <!-- FeatherJS -->
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   <!-- Particles JS -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
-<body>
+<body class="font-poppins font-light">
   <main>
     <div id="particles-js" class="w-full h-full absolute"></div>
     <div class="w-screen h-screen bg-primary flex flex-col items-center justify-center overflow-hidden z-0">
@@ -23,8 +26,8 @@
         <div class="w-52 h-52 rounded-full">
           <img src="./assets/avatar.png" alt="Avatar image of Diogo Costa" class="object-contain">
         </div>
-        <h1 class="text-white poppins-400 text-2xl mt-12 hidden lg:block">Diogo Marques Costa</h1>
-        <h1 class="text-white poppins-400 text-2xl mt-12 lg:hidden">Diogo M. Costa</h1>
+        <h1 class="text-white font-normal text-2xl mt-12 hidden lg:block">Diogo Marques Costa</h1>
+        <h1 class="text-white font-normal text-2xl mt-12 lg:hidden">Diogo M. Costa</h1>
         <h2 class="text-white text-lg">Full Stack Developer</h2>
       </div>
       <div class="sm:w-96 w-full h-3/5 flex flex-col items-center justify-between rounded-t-full bg-pink-900 z-10">
