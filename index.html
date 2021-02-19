@@ -12,11 +12,14 @@
 
   <!-- FeatherJS -->
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <!-- Particles JS -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
   <main>
-    <div class="w-screen h-screen bg-primary flex flex-col items-center justify-center overflow-hidden">
-      <div class="sm:w-96 w-full h-2/4 flex flex-col items-center justify-center ">
+    <div id="particles-js" class="w-full h-full absolute"></div>
+    <div class="w-screen h-screen bg-primary flex flex-col items-center justify-center overflow-hidden z-0">
+      <div class="sm:w-96 w-full h-2/4 flex flex-col items-center justify-center z-10">
         <div class="w-52 h-52 rounded-full">
           <img src="./assets/avatar.png" alt="Avatar image of Diogo Costa" class="object-contain">
         </div>
@@ -24,7 +27,7 @@
         <h1 class="text-white poppins-400 text-2xl mt-12 lg:hidden">Diogo M. Costa</h1>
         <h2 class="text-white text-lg">Full Stack Developer</h2>
       </div>
-      <div class="sm:w-96 w-full h-3/5 flex flex-col items-center justify-between rounded-t-full bg-pink-900">
+      <div class="sm:w-96 w-full h-3/5 flex flex-col items-center justify-between rounded-t-full bg-pink-900 z-10">
         <div class="logo-container w-44 h-12 p-1.5 flex justify-evenly items-center bg-white rounded-full">
           <i data-feather="github" class="cursor-pointer hover:text-pink-900 transform hover:scale-150"></i>
           <i data-feather="send" class="cursor-pointer hover:text-pink-900 transform hover:scale-150"></i>
@@ -33,7 +36,7 @@
 
         <div class="content-container h-3/4 flex flex-col items-center justify-evenly">
           <h3 class="text-white text-2xl">Check more of me</h3>
-          <p class="animate-bounce">👇</p>
+          <p class="animate-bounce text-2xl">👇</p>
           <a href="https://www.diogomcosta.com" target="_blank" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Visit my website 🚀</a>
           <a href="https://www.github.com/diogofalken/" target="_blank" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Check my projects 🤯</a>
           <a href="https://www.instagram.com/diogofalcao99" target="_blank" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Follow me on instagram 📷</a>
@@ -47,7 +50,118 @@
   </main>
 
   <script>
-      feather.replace()
+      feather.replace();
+
+      particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 700,
+          "density": {
+            "enable": true,
+            "value_area": 789.1476416322727
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.48927153781200905,
+          "random": false,
+          "anim": {
+            "enable": true,
+            "speed": 0.2,
+            "opacity_min": 0,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3.9,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 10,
+            "size_min": 0,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": false,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 0.5,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "bubble"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 83.91608391608392,
+            "size": 1,
+            "duration": 3,
+            "opacity": 1,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 400,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
   </script>
 </body>
 </html>
