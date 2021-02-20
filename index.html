@@ -18,16 +18,13 @@
    <link rel="apple-touch-icon" href="./img/favicon/apple-touch-icon.png">
 
   <!-- TailwindCSS -->
-  <link rel="stylesheet" href="./css/tailwind.css">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preload" href="./css/tailwind.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="./css/tailwind.css"></noscript>
   
   <!-- Particles JS -->
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
   <!-- FeatherJS -->
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js" defer></script>
 </head>
 <body class="font-poppins font-light">
   <main>
@@ -43,17 +40,17 @@
       </div>
       <div class="sm:w-96 w-full h-3/5 flex flex-col items-center justify-between rounded-t-full bg-pink-900 z-10">
         <div class="logo-container w-44 h-12 p-1.5 flex justify-evenly items-center bg-white rounded-full">
-          <a href="https://www.github.com/diogofalken" target="_blank"><i data-feather="github" class="cursor-pointer hover:text-pink-900 transform hover:scale-150 transition"></i></a>
+          <a href="https://www.github.com/diogofalken" target="_blank" rel="noopener noreferrer"><i data-feather="github" class="cursor-pointer hover:text-pink-900 transform hover:scale-150 transition"></i></a>
           <a class="text-decoration-none" href="mailto:diogocosta.contact@gmail.com?subject=[Linktree] - " target="_blank" rel="noopener noreferrer"><i data-feather="send" class="cursor-pointer hover:text-pink-900 transform hover:scale-150 transition"></i></a>
-          <a href="https://www.linkedin.com/in/diogocosta99" target="_blank"><i data-feather="linkedin" class="cursor-pointer hover:text-pink-900 transform hover:scale-150 transition"></i></a>
+          <a href="https://www.linkedin.com/in/diogocosta99" target="_blank" rel="noopener noreferrer"><i data-feather="linkedin" class="cursor-pointer hover:text-pink-900 transform hover:scale-150 transition"></i></a>
         </div>
 
         <div class="content-container h-3/4 flex flex-col items-center justify-evenly">
           <h3 class="text-white text-2xl">Check more of me</h3>
           <p class="animate-bounce text-2xl">👇</p>
-          <a href="https://www.diogomcosta.com" target="_blank" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Visit my website 🚀</a>
-          <a href="https://www.github.com/diogofalken/" target="_blank" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Check my projects 🤯</a>
-          <a href="https://www.instagram.com/diogofalcao99" target="_blank" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Follow me on instagram 📷</a>
+          <a href="https://www.diogomcosta.com" target="_blank" rel="noopener noreferrer" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Visit my website 🚀</a>
+          <a href="https://www.github.com/diogofalken/" target="_blank" rel="noopener noreferrer" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Check my projects 🤯</a>
+          <a href="https://www.instagram.com/diogofalcao99" target="_blank" rel="noopener noreferrer" class="bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white">Follow me on instagram 📷</a>
         </div>
 
         <div class="w-12 h-12 justify-self-end">
