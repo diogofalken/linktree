@@ -8,6 +8,7 @@ export default {
         "name": "DC | Links",
         "short_name": "dlinks",
         "orientation": "portrait",
+        "start_url": "/index.html",
         "theme_color": "#ffffff",
         "description": "All the links related to Diogo Costa.",
         "icons": [
