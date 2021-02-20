@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @tailwind base;
 @tailwind components;
+
+.btn-main {
+  @apply bg-white rounded-full w-64 h-12 p-2 inline-flex items-center justify-center hover:bg-blue-900 hover:text-white transform hover:scale-125 transition duration-300 ease-in-out
+}
+
 @tailwind utilities;

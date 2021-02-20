@@ -3,7 +3,7 @@ feather.replace();
 particlesJS('particles-js', {
   particles: {
     number: {
-      value: 700,
+      value: 300,
       density: {
         enable: true,
         value_area: 789.1476416322727,
