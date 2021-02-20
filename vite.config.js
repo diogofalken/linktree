@@ -7,6 +7,7 @@ export default {
       manifest: {
         "name": "DC | Links",
         "short_name": "dlinks",
+	"start_url": "index.html",
         "orientation": "portrait",
         "theme_color": "#ffffff",
         "description": "All the links related to Diogo Costa.",
