@@ -25,7 +25,7 @@
 
 - This was part of the CSS challenge #2 contest by [@papodedev](https://www.instagram.com/papodedev/). I wanted to use TailwindCSS so it was the perfect challenge, after making the design of the app and the logo I started the implementation. In the end, I decided to turn this app in a PWA so I could install it on my phone.
 
-- You can acess the live version [here](https://www.links.diogomcosta.com).
+- You can acess the live version [here](https://links.diogomcosta.com/).
 
 ## 🚀 Technologies 
 
