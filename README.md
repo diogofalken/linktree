@@ -22,19 +22,18 @@
 </p>
 
 ## ✨ Info
----
+
 - This was part of the CSS challenge #2 contest by [@papodedev](https://www.instagram.com/papodedev/). I wanted to use TailwindCSS so it was the perfect challenge, after making the design of the app and the logo I started the implementation. In the end, I decided to turn this app in a PWA so I could install it on my phone.
 
 - You can acess the live version [here](https://www.links.diogomcosta.com).
 
 ## 🚀 Technologies 
----
+
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 - [Vite-PWA](https://github.com/antfu/vite-plugin-pwa) - Zero-config PWA for Vite.
 - [Particles.js](https://vincentgarreau.com/particles.js/) - A lightweight JavaScript library for creating particles.
 - [Feather Icons](https://feathericons.com/) - Simply beautiful open source icons.
 
 ## 📝 License 
----
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
